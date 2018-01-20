@@ -1,4 +1,4 @@
-﻿const multiply = (a = 1, b = 1) =>  console.log(a * b);
-multiply(5, 6);
-multiply(5);
-multiply();
+﻿const multiply = (a = 1, b = 1) =>  {return a * b};
+console.log(multiply(5, 6, 2));
+console.log(multiply(5));
+console.log(multiply());
